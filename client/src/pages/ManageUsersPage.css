@@ -1,0 +1,85 @@
+.manage-users-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px var(--shadow-color);
+}
+
+.manage-users-container h1 {
+    margin-bottom: 0.5rem;
+}
+
+.manage-users-container p {
+    margin-bottom: 2rem;
+    color: var(--text-dark);
+    opacity: 0.8;
+}
+
+.user-creation-form {
+  max-width: 500px;
+}
+
+.user-creation-form h2 {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+  background-color: #2980b9;
+}
+
+.btn-submit:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #c0392b;
+  background-color: #fdd;
+  padding: 0.75rem;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.success-message {
+  color: #27ae60;
+  background-color: #eafaf1;
+  padding: 0.75rem;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
